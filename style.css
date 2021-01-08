@@ -46,7 +46,8 @@ ul>li{
 }
 
 .content{
-margin-top:1em;
+margin-top:2em;
+margin-bottom:8em;
 display:flex;
 flex-wrap: wrap;
 }
@@ -74,7 +75,9 @@ h3{
     font-size: 3em;
     margin:15px auto;
     line-height: 2em;
+    text-decoration: underline;
 }
+
 article{
     white-space: pre-wrap;
     line-height: 28px;
@@ -94,17 +97,17 @@ article{
     width: 100%;
 }
 
-
-
 /*DRUGA STRONA*/
 
 
-
 .content2{
-    margin-top:3.5em;
-    display:flex;
-    flex-wrap: wrap;
-    }
+margin-top:3.5em;
+margin-bottom:3.5em;
+display:flex;
+flex-wrap: wrap;
+background-color: #264653;
+color:#ffaa64;
+}
 
 .education{
 width:40%;
@@ -112,11 +115,30 @@ margin:40px auto;
 }
 
 .photo2{
-    margin: 40px auto;
-    background-image: url(man2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:330px 200px;
-    border:9px #1b273f solid;
-    border-radius: 64px;
+ margin: 40px auto;
+background-image: url(man2.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding:330px 200px;
+border:9px #1b273f solid;
+border-radius: 64px;
 }
+
+@media screen and (max-width:832px){
+    .content{
+      width: 180%;
+      margin: 10px -150px;
+      /*display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: center;
+      align-items: center; */
+      }
+  }
+
+  @media screen and (max-width:832px){
+    .content2{
+      width: 180%;
+      margin: 10px -150px;
+      }
+  }
