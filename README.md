@@ -2,4 +2,4 @@
 
 Photos which I used on this site are from pexels.com
 
-Still working, to do the site looks better :)
+Still working, to make site looks better :)
