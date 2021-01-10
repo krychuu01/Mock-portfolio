@@ -8,8 +8,8 @@ body{
     margin:0;
     padding:0;
     font-size: 16px;
-    background-color:#3A568B;
     font-family: 'Volkhov', serif;
+    background-color:#3A568B;
 }
 
 a{
@@ -22,7 +22,6 @@ a:hover{
 }
 .container{
     width:100%;
-    color:#FFE4C4;
 }
 
 .header{
@@ -36,16 +35,16 @@ a:hover{
     font-size:1.7em;
 }
 
-.navigation{
-
-}
-
 ul>li{
     display:inline-block;
     list-style: none;
+    color:#FFE4C4;
 }
 
 .content{
+color:#FFE4C4;
+background-color:#3A568B;
+width:100%;
 margin-top:2em;
 margin-bottom:8em;
 display:flex;
@@ -54,7 +53,7 @@ flex-wrap: wrap;
 
 .photo1{
     margin: 40px auto;
-    background-image: url(man.png);
+    background-image: url(../man.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding:330px 200px;
@@ -66,6 +65,7 @@ flex-wrap: wrap;
     width:40%;
     align-items: center;
     margin: 40px auto;
+    font-size:1.1em;
     font-family: 'Lato', sans-serif;
     line-height: 21px;
     white-space: initial;
@@ -89,56 +89,50 @@ article{
     align-items: center;
     justify-content: center;
     text-align:center;
-    margin-top: 2em;
     line-height:2.4em;
     font-size:1em;
     color:#FFE4C4;
     border-top:9px #1b273f solid;
     width: 100%;
-}
+    }
 
-/*DRUGA STRONA*/
-
-
-.content2{
-margin-top:3.5em;
-margin-bottom:3.5em;
-display:flex;
-flex-wrap: wrap;
-background-color: #264653;
-color:#ffaa64;
-}
-
-.education{
-width:40%;
-margin:40px auto;
-}
-
-.photo2{
- margin: 40px auto;
-background-image: url(man2.png);
-background-repeat: no-repeat;
-background-size: cover;
-padding:330px 200px;
-border:9px #1b273f solid;
-border-radius: 64px;
-}
 
 @media screen and (max-width:832px){
-    .content{
-      width: 180%;
-      margin: 10px -150px;
-      /*display:flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      align-content: center;
-      align-items: center; */
-      }
-  }
+.content{
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
 
-  @media screen and (max-width:832px){
-    .content2{
-      width: 180%;
-      margin: 10px -150px;
-      }
+.content2{
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+
+.content3{
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+
+    .text{
+    width:70%;
+    padding: 0;
+    }
   }

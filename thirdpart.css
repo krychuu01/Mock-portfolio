@@ -1,0 +1,25 @@
+/*THIRD PART*/
+.content3{
+    width: 100%;
+    padding: 5.5em 0;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #316d85;
+    color:#fcbf49;
+    }
+    
+    .about_me{
+    width:40%;
+    margin:40px auto;
+    }
+    
+    .photo3{
+    margin: 40px auto;
+    background-image: url(../man3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:330px 200px;
+    border:9px #1e4250 solid;
+    border-radius: 64px;
+    }
+    
