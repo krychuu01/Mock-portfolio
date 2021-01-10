@@ -1,0 +1,25 @@
+/*SECOND PART*/
+.content2{
+    width:100%;
+    padding: 5.5em 0;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #264653;
+    color:#ffaa64;
+    }
+    
+    .education{
+    width:40%;
+    margin:40px auto;
+    }
+    
+    .photo2{
+    margin: 40px auto;
+    background-image: url(../man2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:330px 200px;
+    border:9px #14242b solid;
+    border-radius: 64px;
+    }
+    
