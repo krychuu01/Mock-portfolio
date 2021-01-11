@@ -85,6 +85,7 @@ article{
 }
 
 .footer{
+    width:100%;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -93,9 +94,12 @@ article{
     font-size:1em;
     color:#FFE4C4;
     border-top:9px #1b273f solid;
-    width: 100%;
     }
 
+.footer i{
+    font-size: 1em;
+    padding-left: 8px;
+}
 
 @media screen and (max-width:832px){
 .content{
@@ -135,7 +139,10 @@ article{
     width:70%;
     padding: 0;
     }
+
   }
-
-
-  /* test */
+@media screen and (max-width:650px){
+    .footer{
+        flex-direction: column;
+    }
+}
