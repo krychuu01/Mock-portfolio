@@ -1,4 +1,5 @@
 /*THIRD PART*/
+
 .content3{
     width: 100%;
     padding: 5.5em 0;
@@ -8,13 +9,20 @@
     color:#fcbf49;
     }
 
-    .photo3{
+.photo3{
     margin: 40px auto;
-    background-image: url(../man3.jpg);
+    background-image: url(../man3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding:330px 200px;
+    padding:22em 13em;
     border:9px #1e4250 solid;
     border-radius: 64px;
     }
-    
+
+@media screen and (max-width:832px){
+
+    .photo3{
+    padding:15em 10em;
+    }
+
+  }

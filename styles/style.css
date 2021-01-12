@@ -4,6 +4,7 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
 body{
     margin:0;
     padding:0;
@@ -20,14 +21,15 @@ a{
 a:hover{
     color:#bba890;
 }
+
 .container{
     width:100%;
 }
 
-.header{
+nav{
     width:80%;
     border:7px #1b273f solid;
-    border-radius: 32px;
+    border-radius:32px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -42,49 +44,50 @@ ul>li{
 }
 
 .content{
-color:#FFE4C4;
-background-color:#3A568B;
-width:100%;
-margin-top:2em;
-margin-bottom:8em;
-display:flex;
-flex-wrap: wrap;
+    color:#FFE4C4;
+    background-color:#3A568B;
+    width:100%;
+    margin-top:2em;
+    margin-bottom:8em;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .photo1{
-    margin: 40px auto;
+    margin:40px auto;
     background-image: url(../man.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding:330px 200px;
+    padding:22em 13em;
     border:9px #1b273f solid;
-    border-radius: 64px;
+    border-radius:64px;
 }
 
 .text{
     width:40%;
     align-items: center;
-    margin: 40px auto;
+    margin:40px auto;
     font-size:1.1em;
-    font-family: 'Lato', sans-serif;
-    line-height: 21px;
-    white-space: initial;
+    font-family:'Lato', sans-serif;
+    line-height:21px;
+    white-space:initial;
 }
-h3{
-    display: inline-block;
-    font-size: 3em;
+
+h1{
+    display:inline-block;
+    font-size:3em;
     margin:15px auto;
-    line-height: 2em;
-    text-decoration: underline;
+    line-height:2em;
+    text-decoration:underline;
 }
 
 article{
-    white-space: pre-wrap;
-    line-height: 28px;
-    font-size: 1.4em;
+    white-space:pre-wrap;
+    line-height:28px;
+    font-size:1.4em;
 }
 
-.footer{
+footer{
     width:100%;
     display:flex;
     align-items: center;
@@ -96,26 +99,28 @@ article{
     border-top:9px #1b273f solid;
     }
 
-.footer i{
-    font-size: 1em;
-    padding-left: 8px;
+i{
+    font-size:.9em;
+    padding:0 .4em 0 .4em;
 }
 
 @media screen and (max-width:832px){
+
 .content{
-    width: 100%;
-    margin: 0 auto;
-    display:flex;
-    flex-wrap: wrap;
+    margin:0;
     justify-content: center;
     flex-direction: column;
     align-content: center;
     align-items: center;
     }
 
+.photo1{
+    padding:15em 10em;
+    }
+
 .content2{
-    width: 100%;
-    margin: 0 auto;
+    width:100%;
+    margin:0;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -125,8 +130,8 @@ article{
     }
 
 .content3{
-    width: 100%;
-    margin: 0 auto;
+    width:100%;
+    margin:0;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -135,14 +140,17 @@ article{
     align-items: center;
     }
 
-    .text{
+.text{
     width:70%;
-    padding: 0;
+    padding:0;
     }
 
   }
+
 @media screen and (max-width:650px){
-    .footer{
+
+    footer{
         flex-direction: column;
     }
-}
+
+  }

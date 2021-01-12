@@ -1,4 +1,5 @@
 /*SECOND PART*/
+
 .content2{
     width:100%;
     padding: 5.5em 0;
@@ -8,14 +9,19 @@
     color:#ffaa64;
     }
 
-    
-    .photo2{
+.photo2{
     margin: 40px auto;
     background-image: url(../man2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding:330px 200px;
+    padding:22em 13em;
     border:9px #14242b solid;
     border-radius: 64px;
     }
-    
+
+@media screen and (max-width:832px){
+
+    .photo2{
+        padding:15em 10em;
+        }
+}
